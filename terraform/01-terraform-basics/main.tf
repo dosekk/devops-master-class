@@ -10,5 +10,11 @@ terraform{
     region = "us-east-1"
   }
   resource "aws_s3_bucket" "my_S3_Bucket" {
-    bucket = "my-s3-bucket-in28minutes-rali-001"    
-  }
+    bucket = "my-s3-bucket-in28minutes-rali-001"
+   }
+   resource "aws_s3_bucket_versioning" "versioning_example"{
+    bucket = aws_s3_bucket.my_S3_Bucket.id
+    versioning_configuration {
+      status = "Enabled"
+    }
+   }

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\jenkins",
+    "\\terraform",
+    "\\terraform\\01-terraform-basics",
+    "\\terraform\\backup",
+    "\\terraform\\backup\\01-terraform-basics"
+  ],
+  "SelectedNode": "\\terraform\\backup\\01-terraform-basics\\main.tf",
+  "PreviewInSolutionExplorer": false
+}
